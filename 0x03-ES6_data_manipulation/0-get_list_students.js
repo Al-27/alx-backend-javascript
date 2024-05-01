@@ -12,8 +12,8 @@ export function getListStudents()
 function create_student(nm,id,loc)
 {
     return {
-        ["id"]: id,
         ["firstName "]: nm,
+        ["id"]: id,
         ["location"]: loc,        
     };
 }
