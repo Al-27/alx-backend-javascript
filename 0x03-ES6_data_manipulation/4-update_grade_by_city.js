@@ -9,8 +9,8 @@ export function updateStudentGradeByCity(students_list, city, new_grades)
 {
   let students_map = students_list.map(s => {id: s.id, firstName: s.firstName, location: s.location, grade: 'N/A'});
 
-  new_grades.forEach( grd => {
-    students_map.find(s => s.id == grd.studentId).grade = grd.grade;
+  students_map.forEach( st => {
+    st.grade = new_grades.filter(gr => gr.studentId == st.id).grade;
   });
 
   return students_map;
