@@ -6,8 +6,8 @@ const read = readline.createInterface({
 });
 
 console.log("Welcome to Holberton School, what is your name?");
-read.question("Your name is: ", () => {
 
+read.question("Your name is: ", () => {
     console.log("This important software is now closing");
     read.close();
 });
