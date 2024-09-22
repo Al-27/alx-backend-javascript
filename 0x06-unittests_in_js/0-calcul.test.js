@@ -15,7 +15,9 @@ let tests = [
 ];
 
 describe('calculateNumber', ()=>{
+    //assert
     tests.forEach(el => it('...',  ()=>{
+        //assert
         el;
     }));
 });
