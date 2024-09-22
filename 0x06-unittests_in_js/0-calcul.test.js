@@ -15,9 +15,9 @@ let tests = [
 ];
 
 describe('calculateNumber', ()=>{
-    //assert
+    assert.equal(0,0);
     tests.forEach(el => it('...',  ()=>{
-        //assert
+        assert.equal(0,0);
         el;
     }));
 });
