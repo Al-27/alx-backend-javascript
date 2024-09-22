@@ -1,5 +1,5 @@
 const calc = require('./0-calcul').calculateNumber;
-const assert = require('node:assert');
+const assert = require('assert');
 
 let tests = [
     assert.equal(calc(2,3),5),
@@ -20,4 +20,10 @@ describe('calculateNumber', ()=>{
         assert.equal(0,0);
         el;
     }));
+});
+
+describe('calculateNumber', () => {
+    it('', () => {
+      assert.strictEqual(calculateNumber(1.0, 2.0), 3);
+    })
 });
