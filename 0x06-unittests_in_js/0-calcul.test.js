@@ -15,15 +15,13 @@ let tests = [
 ];
 
 describe('calculateNumber', ()=>{
-    assert.equal(0,0);
     tests.forEach(el => it('...',  ()=>{
-        assert.equal(0,0);
         el;
     }));
 });
 
 describe('calculateNumber', () => {
     it('', () => {
-      assert.strictEqual(calculateNumber(1.0, 2.0), 3);
+      assert.strictEqual(calc(1.0, 2.0), 3);
     })
 });
